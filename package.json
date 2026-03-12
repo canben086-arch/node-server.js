@@ -1,0 +1,16 @@
+{
+  "name": "tron-auto-withdrawal",
+  "version": "1.0.0",
+  "description": "Automatic TRX withdrawal system for Render.com",
+  "main": "node-server.js",
+  "scripts": {
+    "start": "node node-server.js",
+    "test": "node send-trx.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "tronweb": "^5.3.0"
+  }
+}
